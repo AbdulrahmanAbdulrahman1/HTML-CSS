@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abdelrahman Abdelrahman Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Fixed Navbar -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Abdelrahman A.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#howto">How To Create a Fixed Menu</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero with centered profile image (filter + rounded) -->
+    <section id="home" class="hero">
+      <img src="profile.jpg" alt="Profile" class="center-img" />
+      <h1 class="hero-title">Abdelrahman Abdelrahman</h1>
+      <p class="hero-sub">Student • Designer • Developer</p>
+    </section>
+
+    <!-- Text over image -->
+    <section class="cover-section">
+      <div class="cover-image" style="background-image:url('cover.jpg')">
+        <div class="cover-text">Creative Projects and Experiments</div>
+      </div>
+    </section>
+
+    <!-- Table -->
+    <section class="table-section">
+      <h2>Skills and Tools</h2>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Skills</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web</td>
+            <td>HTML; CSS; JavaScript</td>
+            <td>2 years</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td>Figma; Photoshop</td>
+            <td>1.5 years</td>
+          </tr>
+          <tr>
+            <td>Other</td>
+            <td>Git; Terminal</td>
+            <td>1 year</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Two-column layout -->
+    <section class="two-column" id="about">
+      <div class="col left-col">
+        <h3>About Me</h3>
+        <p>I am a student exploring web development and visual design. I enjoy building colorful, interactive pages.</p>
+      </div>
+      <div class="col right-col">
+        <h3>Current Focus</h3>
+        <p>Learning responsive layouts, animations, and accessible UI patterns.</p>
+      </div>
+    </section>
+
+    <!-- Paragraph hover effect -->
+    <section class="hover-paragraph">
+      <p class="hoverable">Hover over this paragraph to see a subtle effect that highlights the text and lifts it slightly.</p>
+    </section>
+
+    <!-- Image overlay fade -->
+    <section class="overlay-demo">
+      <h2>Project Preview</h2>
+      <div class="overlay-container">
+        <img src="overlay.jpg" alt="Project" class="overlay-image" />
+        <div class="overlay-layer">
+          <div class="overlay-caption">Project Title — Click to explore</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video autoplay muted loop -->
+    <section class="video-section">
+      <h2>Sample Video</h2>
+      <video class="sample-video" src="sample.mp4" autoplay muted loop playsinline></video>
+
+      <!-- Video with text overlay -->
+      <div class="video-overlay-wrap">
+        <video class="bg-video" src="sample.mp4" autoplay muted loop playsinline></video>
+        <div class="video-overlay-text">Motion Design Demo</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2026 Abdelrahman Abdelrahman</p>
+  </footer>
+
+</body>
+</html>
